@@ -1,0 +1,20 @@
+# Name: Nav L. Volcy
+# cs 1400
+#exercise #3
+
+ # number and type of pizza order
+Personal_piza = 8
+Monster_piza = 23
+
+#measurements and base price of pizza
+diameter = input("place how many diameters is the pizza: ")
+diameter = int(diameter)
+base_price = 2
+
+#two different results for two different pizza
+total_cost_personal = Personal_piza ** base_price * diameter
+
+total_cost_monster = Monster_piza ** base_price * diameter
+
+print("the cost of the Personal is", total_cost_personal)
+print("the cost of the monster is", total_cost_monster)
